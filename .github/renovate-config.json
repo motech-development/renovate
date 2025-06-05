@@ -1,5 +1,8 @@
 {
   "onboarding": false,
   "platform": "github",
-  "repositories": ["motech-development/platform"]
+  "repositories": [
+    "motech-development/platform",
+    "motech-development/renovate"
+  ]
 }
