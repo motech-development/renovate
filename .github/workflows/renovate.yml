@@ -63,6 +63,7 @@ jobs:
           configurationFile: .github/renovate-config.json
           token: ${{ steps.generate_token.outputs.token }}
         env:
+          LOG_LEVEL: debug
           RENOVATE_PLATFORM_COMMIT: true
           RENOVATE_REPOSITORY_CACHE: enabled
 
